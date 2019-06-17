@@ -1,0 +1,3055 @@
+/*
+Template Name: Appak apps landingpage
+Author: Themes Item( Creative It Limited)
+Designed by: Abu Baqar Siddique (Uzzal) 
+Version: 1.00
+
+Table of Content
+================
+    1. header part
+        1.1 nav part
+        1.2 banner part
+    2. feature part
+    3. milestone part
+    4. about-phone part
+    5. faqs part
+    6. screenshot part
+    7. video_tour part 
+    8. testimonials part
+    9. our-team part
+    10. pricing part
+    11. newsletter part
+    12. footer part
+    13. top_to button part
+    14. responsive css start
+
+*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+a,
+a:hover,
+a:focus {
+    text-decoration: none;
+    outline: 0;
+}
+
+img {
+    border: 0px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ol,
+ul,
+p,
+address,
+strong,
+i {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    line-height: normal;
+}
+
+p {
+    line-height: 24px;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+
+/* main css start */
+
+.text h2 {
+    color: #101010;
+    font-size: 40px;
+    font-weight: 500;
+    font-family: 'Raleway', sans-serif;
+}
+
+.border img {
+    display: inline-block;
+}
+
+
+/* ================================================
+            header part start here
+=================================================== */
+
+header nav {
+    position: absolute;
+    top: 1px;
+    left: 0px;
+    width: 100%;
+    z-index: 99999999999999;
+    padding: 30px 0px;
+    transition: .5s ease;
+}
+
+header nav img {
+    padding-left: 10px;
+    transition: .5s ease;
+    -webkit-transition: .5s ease;
+    -moz-transition: .5s ease;
+    -ms-transition: .5s ease;
+    -o-transition: .5s ease;
+}
+
+header nav ul li {
+    float: left;
+}
+
+header nav ul li:last-child a {
+    padding-right: 0px;
+}
+
+header nav ul li:last-child a:after {
+    left: 70%;
+}
+
+header nav ul li.active a {
+    color: #fff !important;
+}
+
+header nav.magenta ul li.active a {
+    color: #fff !important;
+}
+
+header nav ul li.active a:after {
+    width: 33px;
+}
+
+header nav .nav>li>a {
+    color: #fff;
+    line-height: 60px;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 0px 20px;
+    position: relative;
+    transition: all linear 0.2s;
+    -webkit-transition: all linear 0.2s;
+    -moz-transition: all linear 0.2s;
+    -ms-transition: all linear 0.2s;
+    -o-transition: all linear 0.2s;
+    font-family: 'Raleway', sans-serif;
+}
+
+header nav .nav>li>a:after {
+    position: absolute;
+    content: '';
+    left: 50%;
+    bottom: 10px;
+    width: 0px;
+    border-bottom: 6px dotted #fff;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transition: all linear 0.4s;
+    -webkit-transition: all linear 0.4s;
+    -moz-transition: all linear 0.4s;
+    -ms-transition: all linear 0.4s;
+    -o-transition: all linear 0.4s;
+}
+
+header nav .nav>li>a:hover {
+    background: none;
+}
+
+header nav.magenta .nav>li>a:hover {
+    color: #fff;
+    background: none;
+}
+
+header nav .nav>li>a:hover:after {
+    width: 33px;
+}
+
+header nav .nav>li>a:focus {
+    color: #fff;
+    background: none;
+}
+
+header .navbar-position {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 999999999;
+    padding: 5px 0px;
+    transition: .5s ease;
+    -webkit-transition: .5s ease;
+    -moz-transition: .5s ease;
+    -ms-transition: .5s ease;
+    -o-transition: .5s ease;
+    -webkit-box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.30);
+    -moz-box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.30);
+    -ms-box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.30);
+    -o-box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.30);
+    box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.30);
+}
+
+header .navbar-position img {
+    padding-left: 0px;
+    transform: scale(0.7);
+}
+
+header .navbar-position ul li a {
+    padding: 0px 18px;
+}
+
+/* header nav ends here */
+
+#banner {
+    position: relative;
+}
+
+#banner .i_phone {
+    position: relative;
+}
+
+#banner .i_phone .phone_smart {
+    float: right;
+}
+
+#banner .i_phone h1 {
+    font-weight: 600;
+    font-size: 50px;
+    padding-top: 220px;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    z-index: 99999;
+}
+
+#banner .i_phone h1 span {
+    font-weight: 400;
+    font-size: 50px;
+    display: block;
+}
+
+#banner .i_phone p {
+    color: #f1f1f1;
+    font-size: 14px;
+    padding-top: 45px;
+    padding-bottom: 55px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#banner .i_phone .btn-list {
+    padding-bottom: 70px;
+    padding-bottom: 400px;
+}
+
+#banner .i_phone .btn-list li {
+    display: inline-block;
+}
+
+#banner .i_phone .btn-list li a {
+    line-height: 43px;
+    display: inline-block;
+    color: #fff;
+    font-weight: 500;
+    font-size: 16px;
+    padding: 0px 30px;
+    margin-right: 25px;
+    border-radius: 30px;
+    border: 1px solid rgb(20, 109, 124);
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    font-family: 'Raleway', sans-serif;
+    transition: all linear 0.3s;
+    -webkit-transition: all linear 0.3s;
+    -moz-transition: all linear 0.3s;
+    -ms-transition: all linear 0.3s;
+    -o-transition: all linear 0.3s;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.1);
+    background: -webkit-linear-gradient(to right, #57c4bf 0%, #011f2a 160%);
+    background: -moz-linear-gradient(to right, #57c4bf 0%, #011f2a 160%);
+    background: -ms-linear-gradient(to right, #57c4bf 0%, #011f2a 160%);
+    background: -o-linear-gradient(to right, #57c4bf 0%, #011f2a 160%);
+    background: linear-gradient(to right, #57c4bf 0%, #011f2a 160%);
+}
+
+#banner .i_phone .btn-list li:last-child a {
+    margin-right: 0;
+    background: none;
+}
+
+#banner .i_phone .btn-list li a:hover {
+    background: none;
+}
+
+#banner .i_phone .btn-list li:last-child a:hover {
+    background: -webkit-linear-gradient(to right, #57c4bf 0%, #011f2a 160%);
+    background: -moz-linear-gradient(to right, #57c4bf 0%, #011f2a 160%);
+    background: -ms-linear-gradient(to right, #57c4bf 0%, #011f2a 160%);
+    background: -o-linear-gradient(to right, #57c4bf 0%, #011f2a 160%);
+    background: linear-gradient(to right, #57c4bf 0%, #011f2a 160%);
+}
+
+#banner .round_border {
+    position: absolute;
+    right: -14%;
+    bottom: 0;
+    z-index: 111;
+}
+
+#banner .round_border img {
+    float: right;
+}
+
+#banner .image_part {
+    position: absolute;
+    bottom: -100px;
+    right: -14%;
+    z-index: 444;
+}
+
+#banner .shape_image img {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: 333;
+}
+
+
+/* ================================================
+            header part ends here
+=================================================== */
+
+
+/* ================================================
+            feature part start here
+=================================================== */
+
+#feature {
+    padding-top: 80px;
+    margin-top: 64px;
+    padding-bottom: 24px;
+    position: relative;
+}
+
+#feature h3 {
+    color: #101010;
+    font-size: 22px;
+    font-weight: 500;
+    font-family: 'Raleway', sans-serif;
+    padding: 30px 0px 20px;
+}
+
+#feature p {
+    color: #353535;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#feature .right_border img {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+
+#feature .text_gap {
+    padding-top: 158px;
+}
+
+#feature .right_border_two {
+    padding-top: 0px;
+}
+
+#feature .right_border_two img {
+    padding-bottom: 32px;
+}
+
+#feature .easy_boost {
+    position: relative;
+    padding-top: 160px;
+}
+
+#feature .easy_boost img {
+    position: absolute;
+    top: -50px;
+    left: 0px;
+}
+
+#feature .un_concept {
+    position: relative;
+    padding-top: 160px;
+}
+
+#feature .un_concept img {
+    position: absolute;
+    top: -56px;
+    right: 77px;
+}
+
+#feature .main_feauture {
+    margin-top: 58px;
+}
+
+#feature .main_feauture img {
+    position: absolute;
+    top: 53px;
+    left: 26%;
+}
+
+#feature .all_icon img {
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    display: inline-block;
+    z-index: 999;
+    background: #fff;
+}
+
+#feature .all_icon .icon_gradient {
+    display: inline-block;
+    position: relative;
+}
+
+#feature .all_icon .icon_gradient::before {
+    position: absolute;
+    content: '';
+    width: 82px;
+    height: 82px;
+    top: -1px;
+    left: -1px;
+    background-size: 100% 100%;
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    z-index: -1;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+#feature .all_icon .icon_gradient .ft_icons {
+    background: none;
+    position: relative;
+    z-index: 9999;
+}
+
+#feature .all_icon .icon_gradient .ft_icons img {
+    z-index: 9999999999;
+}
+
+#feature .all_icon .icon_gradient .overly {
+    position: absolute;
+    width: 104px;
+    height: 104px;
+    z-index: -4;
+    top: -12px;
+    left: -12px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    transition: all linear 0.8s;
+    -webkit-transition: all linear 0.8s;
+    -moz-transition: all linear 0.8s;
+    -ms-transition: all linear 0.8s;
+    -o-transition: all linear 0.8s;
+}
+
+#feature .all_icon .icon_gradient .overly:after {
+    position: absolute;
+    content: '';
+    width: 102px;
+    height: 102px;
+    background: #fff;
+    top: 1px;
+    left: 1px;
+    z-index: -9999 !important;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+#feature .feauture_designed_three .all_icon {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+/* ================================================
+            feature part ends here
+=================================================== */
+
+
+/* ================================================
+            milestone part start here
+=================================================== */
+
+#milestone {
+    padding-top: 70px;
+}
+
+#milestone .milestone_banner {
+    background: url(../images/counter-banner.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#milestone .milestone_banner .bnr_overly {
+    background: rgba(0, 0, 0, 0.9);
+    padding: 30px 0px 55px;
+}
+
+#milestone .milestone_banner .bnr_overly .counter_icon {
+    display: inline-block;
+    text-align: center;
+    position: relative;
+}
+
+#milestone .milestone_banner .bnr_overly .counter_icon i {
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    text-align: center;
+    line-height: 50px;
+    color: #fff;
+    font-size: 20px;
+}
+
+#milestone .milestone_banner .bnr_overly .counter_text h4 {
+    color: #fff;
+    font-size: 24px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    padding: 5px 0px 5px;
+}
+
+#milestone .milestone_banner .bnr_overly .counter_text p {
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+}
+
+#milestone .hp_phone {
+    position: relative;
+}
+
+#milestone .hp_phone img {
+    margin-top: -26px;
+    box-shadow: 0px 65px 15px -66px #000000;
+}
+
+
+/* ================================================
+            milestone part ends here
+=================================================== */
+
+
+/* ================================================
+            about-phone part start here
+=================================================== */
+
+#about-phone {
+    padding: 90px 0px 0px;
+}
+
+#about-phone .border img {
+    padding-bottom: 60px;
+}
+
+#about-phone h4 {
+    color: #101010;
+    font-size: 25px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+#about-phone p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #353535;
+    line-height: 24px;
+}
+
+#about-phone ul {
+    padding-top: 25px;
+}
+
+#about-phone ul li {
+    color: #353535;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    padding-bottom: 20px;
+}
+
+#about-phone ul li i {
+    color: #2e2e2e;
+    padding-right: 10px;
+}
+
+.avail-btn li {
+    display: inline-block;
+}
+
+.avail-btn li a {
+    display: inline-block;
+    padding: 15px 40px 20px 65px;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    margin-right: 20px;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 400;
+    position: relative;
+    font-family: 'Open Sans', sans-serif;
+    transition: all linear 0.3s;
+    -webkit-transition: all linear 0.3s;
+    -moz-transition: all linear 0.3s;
+    -ms-transition: all linear 0.3s;
+    -o-transition: all linear 0.3s;
+}
+
+.avail-btn li a {
+    -webkit-background: linear-gradient(to right, #02202b, #57c4bf);
+    -moz-background: linear-gradient(to right, #02202b, #57c4bf);
+    -ms-background: linear-gradient(to right, #02202b, #57c4bf);
+    -o-background: linear-gradient(to right, #02202b, #57c4bf);
+    background: linear-gradient(to right, #02202b, #57c4bf);
+}
+
+.avail-btn li a:hover {
+    -webkit-background: linear-gradient(to right, #02202b, #273332);
+    -moz-background: linear-gradient(to right, #02202b, #273332);
+    -ms-background: linear-gradient(to right, #02202b, #273332);
+    -o-background: linear-gradient(to right, #02202b, #273332);
+    background: linear-gradient(to right, #02202b, #273332);
+}
+
+.avail-btn li:last-child a {
+    -webkit-background: linear-gradient(to right, #02202b, #273332);
+    -moz-background: linear-gradient(to right, #02202b, #273332);
+    -ms-background: linear-gradient(to right, #02202b, #273332);
+    -o-background: linear-gradient(to right, #02202b, #273332);
+    background: linear-gradient(to right, #02202b, #273332);
+}
+
+.avail-btn li:last-child a:hover {
+    -webkit-background: linear-gradient(to right, #02202b, #57c4bf);
+    -moz-background: linear-gradient(to right, #02202b, #57c4bf);
+    -ms-background: linear-gradient(to right, #02202b, #57c4bf);
+    -o-background: linear-gradient(to right, #02202b, #57c4bf);
+    background: linear-gradient(to right, #02202b, #57c4bf);
+}
+
+.avail-btn li a span {
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+}
+
+.avail-btn li a i {
+    position: absolute;
+    left: 25px;
+    top: 25px;
+    font-size: 35px;
+    color: #fdfdfd !important;
+}
+
+
+/* ================================================
+            about-phone part ends here
+=================================================== */
+
+
+/* ================================================
+            faqs part start here
+=================================================== */
+
+#faqs {
+    padding: 90px 0px 0px;
+}
+
+#faqs .faqs_content {
+    margin-top: 147px;
+    padding: 52px 0px 60px;
+    position: relative;
+    min-height: 454px;
+}
+
+#faqs .faqs_content .panel-group .panel+.panel,
+#faqs .faqs_content .panel-group {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#faqs .faqs_content .panel {
+    border: 0px;
+    background: none;
+    box-shadow: none;
+}
+
+#faqs .faqs_content .panel h4 a {
+    display: block;
+    color: #151515;
+    background: #fff;
+    font-size: 20px;
+    padding: 6px 30px;
+    margin-top: 10px;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+}
+
+#faqs .faqs_content .accordion-toggle i {
+    float: right;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+#faqs .faqs_content .panel-group .panel-heading+.panel-collapse>.list-group,
+#faqs .faqs_content .panel-group .panel-heading+.panel-collapse>.panel-body {
+    border-top: 0px;
+    background: none;
+}
+
+#faqs .faqs_content .panel-heading {
+    padding: 0px;
+}
+
+#faqs .faqs_content .panel-default>.panel-heading {
+    background: none;
+}
+
+#faqs .faqs_content .panel-body {
+    padding: 30px 0px;
+}
+
+#faqs .faqs_content .panel-body p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #f1f1f1;
+    padding-left: 30px;
+}
+
+#faqs .faqs_content .faq_shot img {
+    position: absolute;
+    top: -150px;
+    left: 0px;
+}
+
+
+/* ================================================
+            faqs part ends here
+=================================================== */
+
+
+/* ================================================
+            screenshot part start here
+=================================================== */
+
+#screenshot {
+    padding-top: 91px;
+}
+
+
+/* ================================================
+            faqs part ends here
+=================================================== */
+
+
+/* ================================================
+            video_tour part start here
+=================================================== */
+
+#video_tour {
+    padding: 76px 0px 95px;
+}
+
+#video_tour .border {
+    padding-bottom: 57px;
+}
+
+#video_tour .youtube_video img {
+    width: 100%;
+}
+
+#video_tour .youtube_video .video_play_border {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px transparent;
+    position: relative;
+    width: 90px;
+    height: 90px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    opacity: 0;
+    transition: all linear 0.3s;
+    -webkit-transition: all linear 0.3s;
+    -moz-transition: all linear 0.3s;
+    -ms-transition: all linear 0.3s;
+    -o-transition: all linear 0.3s;
+}
+
+#video_tour .youtube_video .video_play_border i {
+    text-align: center;
+    font-size: 50px;
+    line-height: 75px;
+    margin-left: 5px;
+    margin-top: 5px;
+    color: #fff;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    transition: all linear 0.3s;
+    -webkit-transition: all linear 0.3s;
+    -moz-transition: all linear 0.3s;
+    -ms-transition: all linear 0.3s;
+    -o-transition: all linear 0.3s;
+}
+
+.video_play_border i {
+    padding-left: 9px;
+}
+
+#video_tour .youtube_video:hover .video_play_border {
+    opacity: 1;
+}
+
+#video_tour .youtube_video:hover .video_play_border i {
+    color: #ffffff;
+}
+
+#video_tour h3 {
+    color: #101010;
+    font-family: 'Raleway', sans-serif;
+    font-size: 24px;
+    padding-top: 40px;
+    padding-left: 15px;
+}
+
+#video_tour p {
+    color: #353535;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    padding-top: 20px;
+    padding-left: 15px;
+}
+
+
+/* ================================================
+            video_tour part ends here
+=================================================== */
+
+
+/* ================================================
+            testimonials part start here
+=================================================== */
+
+#testimonials {
+    background: url(../images/testimonial-banner.jpg) no-repeat, center;
+    background-size: cover;
+    padding: 49px 0px 60px;
+}
+
+#testimonials .client_slide ul {
+    padding: 0px 0px;
+}
+
+#testimonials .client_slide ul li {
+    position: relative;
+    padding: 100px 50px 0px;
+    text-align: center;
+}
+
+#testimonials .client_slide ul li .testimonials-content {
+    background: #fff;
+    padding: 65px 20px 30px;
+    border: 2px solid #eaeaea;
+    border-radius: 40px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
+}
+
+#testimonials .client_slide ul li .testimonials-content:after {
+    position: absolute;
+    content: '';
+    width: 20px;
+    height: 49%;
+    left: 20px;
+    top: 40%;
+    background: #fff;
+    border: 2px solid #eaeaea;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    z-index: -1;
+}
+
+#testimonials .client_slide ul li .testimonials-content:before {
+    position: absolute;
+    content: '';
+    width: 20px;
+    height: 49%;
+    right: 20px;
+    top: 40%;
+    background: #fff;
+    border: 2px solid #eaeaea;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    z-index: -2;
+}
+
+#testimonials .client_slide ul li img {
+    position: absolute;
+    left: 43%;
+    top: 44px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    padding: 4px;
+}
+
+#testimonials .client_slide ul li h3 {
+    color: #101010;
+    font-size: 18px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    padding-bottom: 5px;
+}
+
+#testimonials .client_slide ul li h5 {
+    color: #353535;
+    font-size: 14px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    padding-bottom: 18px;
+    padding-top: 5px;
+}
+
+#testimonials .client_slide ul li p {
+    color: #353535;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+#testimonials .client_slide ul li:after {
+    position: absolute;
+    content: '';
+    width: 20px;
+    height: 55%;
+    left: 35px;
+    top: 37%;
+    background: #fff;
+    border: 2px solid #eaeaea;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    z-index: -1;
+}
+
+#testimonials .client_slide ul li:before {
+    position: absolute;
+    content: '';
+    width: 20px;
+    height: 55%;
+    right: 35px;
+    top: 37%;
+    background: #fff;
+    border: 2px solid #eaeaea;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    z-index: -1;
+}
+
+
+/* ================================================
+            testimonials part ends here
+=================================================== */
+
+
+/* ================================================
+            our-team part start here
+=================================================== */
+
+#our-team {
+    padding: 90px 0px 0px;
+}
+
+#our-team ul li {
+    text-align: center;
+}
+
+#our-team ul li h5 {
+    background: #f4f4f4;
+    display: inline-block;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    width: 270px;
+    height: 270px;
+    position: relative;
+    transition: all linear 0.4s;
+    -webkit-transition: all linear 0.4s;
+    -moz-transition: all linear 0.4s;
+    -ms-transition: all linear 0.4s;
+    -o-transition: all linear 0.4s;
+}
+
+#our-team ul li h5:after {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    z-index: -1;
+}
+
+#our-team ul li:hover h5 {
+    background: none;
+}
+
+#our-team ul li .main {
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    display: inline-block;
+    padding: 10px;
+    position: relative;
+}
+
+#our-team ul li figure {
+    position: relative;
+    padding-top: 43px;
+    margin-top: 70px;
+    transition: all linear 0.4s;
+    -webkit-transition: all linear 0.4s;
+    -moz-transition: all linear 0.4s;
+    -ms-transition: all linear 0.4s;
+    -o-transition: all linear 0.4s;
+    transform: scale(0.9);
+}
+
+#our-team ul li figure ul li {
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    transition: all linear 0.6s;
+    -webkit-transition: all linear 0.6s;
+    -moz-transition: all linear 0.6s;
+    -ms-transition: all linear 0.6s;
+    -o-transition: all linear 0.6s;
+    z-index: -1;
+}
+
+#our-team ul li figure ul li a i {
+    width: 42px;
+    height: 42px;
+    line-height: 42px;
+    font-size: 20px;
+    text-align: center;
+    color: #282828;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    position: relative;
+    z-index: -1;
+    opacity: 1;
+    z-index: 9999;
+}
+
+#our-team ul li figure ul li a i::after {
+    position: absolute;
+    content: '';
+    background: #fff;
+    width: 40px;
+    height: 40px;
+    left: 1px;
+    top: 1px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    z-index: -1;
+    transition: all linear 0.2s;
+    -webkit-transition: all linear 0.2s;
+    -moz-transition: all linear 0.2s;
+    -ms-transition: all linear 0.2s;
+    -o-transition: all linear 0.2s;
+    opacity: 1;
+}
+
+#our-team ul li figure ul li a i:hover {
+    color: #fff;
+}
+
+#our-team ul li figure ul li a i:hover:after {
+    opacity: 0;
+}
+
+#our-team ul li figure figcaption {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    background: #fff;
+    padding-top: 10px;
+}
+
+#our-team ul li figure figcaption img {
+    position: absolute;
+    top: -47px;
+    left: 50%;
+    transform: translateX(-54%);
+    -webkit-transform: translateX(-54%);
+    -moz-transform: translateX(-54%);
+    -ms-transform: translateX(-54%);
+    -o-transform: translateX(-54%);
+}
+
+#our-team ul li figure figcaption h3 {
+    color: #101010;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+}
+
+#our-team ul li figure figcaption p {
+    color: #353535;
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+}
+
+#our-team ul li:hover .sm-one {
+    left: 42%;
+    top: -10px;
+}
+
+#our-team ul li:hover .sm-two {
+    left: 60%;
+    top: 2px;
+    opacity: 1;
+}
+
+#our-team ul li:hover .sm-three {
+    left: 75%;
+    top: 39px;
+    opacity: 1;
+}
+
+#our-team ul li:hover .sm-four {
+    left: 85%;
+    top: 95px;
+    opacity: 1;
+}
+
+#our-team ul li:hover .sm-five {
+    left: 88.8%;
+    top: 158px;
+    opacity: 1;
+}
+
+#our-team ul li:hover i {
+    opacity: 1;
+}
+
+#our-team ul li:hover figure {
+    transform: scale(1);
+    z-index: 9999;
+}
+
+
+/* ================================================
+            our-team part ends here
+=================================================== */
+
+
+/* ================================================
+            pricing part start here
+=================================================== */
+
+#pricing {
+    padding-bottom: 100px;
+    padding-top: 72px;
+}
+
+#pricing h2 {
+    padding-bottom: 8px;
+}
+
+#pricing .border {
+    margin-bottom: 60px;
+}
+
+#pricing .price-package {
+    position: relative;
+    background: #f6f6f6;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #e7e7e7;
+    transition: all linear 0.3s;
+    -webkit-transition: all linear 0.3s;
+    -moz-transition: all linear 0.3s;
+    -ms-transition: all linear 0.3s;
+    -o-transition: all linear 0.3s;
+    text-align: center;
+}
+
+#pricing .price-package h3 {
+    color: #101010;
+    font-size: 24px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    border: 1px solid #e7e7e7;
+    padding: 13px 0px;
+    background: #fff;
+    transition: all linear 0.2s;
+    -webkit-transition: all linear 0.2s;
+    -moz-transition: all linear 0.2s;
+    -ms-transition: all linear 0.2s;
+    -o-transition: all linear 0.2s;
+    position: relative;
+    z-index: 888;
+}
+
+#pricing .price-package h3:after {
+    position: absolute;
+    content: '';
+    width: 0%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+    transition: all linear 0.2s;
+    -webkit-transition: all linear 0.2s;
+    -moz-transition: all linear 0.2s;
+    -ms-transition: all linear 0.2s;
+    -o-transition: all linear 0.2s;
+}
+
+#pricing .price-package ul {
+    padding-top: 10px;
+}
+
+#pricing .price-package ul li {
+    color: #353535;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    padding-top: 18px;
+}
+
+#pricing .price-package h4 {
+    color: #151515;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    padding: 30px 0px;
+}
+
+#pricing .price-package h4 span {
+    font-size: 30px;
+}
+
+#pricing .price-package a {
+    color: #353535;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    display: inline-block;
+}
+
+#pricing .price-package a i {
+    color: #353535;
+    opacity: 0;
+    vertical-align: middle;
+}
+
+#pricing .price-package a:hover {
+    color: #143d41;
+}
+
+#pricing .price-package a:hover i {
+    opacity: 1;
+    color: #143d41;
+}
+
+#pricing .price-package:before {
+    position: absolute;
+    content: '';
+    width: 1px;
+    height: 70px;
+    background: #e7e7e7;
+    left: 0px;
+    bottom: 0px;
+}
+
+#pricing .price-package:after {
+    position: absolute;
+    content: '';
+    width: 1px;
+    height: 70px;
+    background: #e7e7e7;
+    right: 0px;
+    bottom: 0px;
+}
+
+#pricing .price-package:hover {
+    box-shadow: 0px 0px 5px 2px rgba(193, 193, 193, 0.9);
+}
+
+#pricing .price-package:hover h3 {
+    color: #fff;
+}
+
+#pricing .price-package:hover h3:after {
+    width: 100%;
+}
+
+#pricing .price-package.active h3:after {
+    width: 100%;
+}
+
+#pricing .price-package.active h3 {
+    color: #fff;
+}
+
+#pricing .price-package:hover i {
+    opacity: 1;
+}
+
+#pricing .price-package img {
+    display: inline-block;
+}
+
+
+/* ================================================
+            pricing part ends here
+=================================================== */
+
+#newsletter {
+    position: relative;
+}
+
+#newsletter .news_banner {
+    background: url(../images/news-banner.jpg) no-repeat, center;
+    background-size: cover;
+    padding-bottom: 80px;
+    padding-top: 52px;
+}
+
+#newsletter .news_banner h2 {
+    color: #fff;
+}
+
+#newsletter .news_banner form {
+    margin-top: 160px;
+}
+
+#newsletter .news_banner form .input-group {
+    width: 100%;
+    position: relative;
+}
+
+#newsletter .news_banner form .form-controls {
+    font-size: 13px;
+    color: #fdfdfd;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    border: 0px;
+    background: none;
+    border-radius: 0px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -ms-border-radius: 0px;
+    -o-border-radius: 0px;
+    width: 100%;
+    font-style: italic;
+    height: 40px;
+    padding: 0px 10px;
+    border: 1px solid #fdfdfd;
+}
+
+#newsletter .news_banner form .form-controls:placehoder {
+    color: #fdfdfd;
+}
+
+#newsletter .news_banner form button {
+    border: 0px;
+    border-radius: 0px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -ms-border-radius: 0px;
+    -o-border-radius: 0px;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    position: absolute;
+    height: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+    right: -1px;
+
+}
+
+#newsletter .news_banner form .btn-default:hover {
+    background: #282828;
+}
+
+#newsletter:after {
+    position: absolute;
+    content: '';
+    background: url(../images/testimonial-banner.jpg) no-repeat, center;
+    background-size: cover;
+    width: 100%;
+    height: 50%;
+    left: 0px;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: -1;
+}
+
+
+/* ================================================
+            newsletter part start here
+=================================================== */
+
+
+/* ================================================
+            footer part start here
+=================================================== */
+
+footer {
+    padding: 60px 0px 0px;
+    margin-top: 100px;
+    background: url(../images/testimonial-banner.jpg) no-repeat, center;
+    background-size: cover;
+}
+
+footer .download-app h2 {
+    color: #151515;
+    font-family: 'Raleway', sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+    padding-top: 48px;
+    padding-bottom: 30px;
+}
+
+.down-btn li {
+    display: inline-block;
+}
+
+.down-btn li a {
+    display: inline-block;
+    padding: 15px 40px 20px 65px;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    margin-right: 20px;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 400;
+    position: relative;
+    font-family: 'Open Sans', sans-serif;
+    transition: all linear 0.3s;
+    -webkit-transition: all linear 0.3s;
+    -moz-transition: all linear 0.3s;
+    -ms-transition: all linear 0.3s;
+    -o-transition: all linear 0.3s;
+}
+
+.down-btn li a {
+    -webkit-background: linear-gradient(to right, #02202b, #57c4bf);
+    -moz-background: linear-gradient(to right, #02202b, #57c4bf);
+    -ms-background: linear-gradient(to right, #02202b, #57c4bf);
+    -o-background: linear-gradient(to right, #02202b, #57c4bf);
+    background: linear-gradient(to right, #02202b, #57c4bf);
+}
+
+.down-btn li a:hover {
+    -webkit-background: linear-gradient(to right, #02202b, #273332);
+    -moz-background: linear-gradient(to right, #02202b, #273332);
+    -ms-background: linear-gradient(to right, #02202b, #273332);
+    -o-background: linear-gradient(to right, #02202b, #273332);
+    background: linear-gradient(to right, #02202b, #273332);
+}
+
+.down-btn li:last-child a {
+    -webkit-background: linear-gradient(to right, #02202b, #273332);
+    -moz-background: linear-gradient(to right, #02202b, #273332);
+    -ms-background: linear-gradient(to right, #02202b, #273332);
+    -o-background: linear-gradient(to right, #02202b, #273332);
+    background: linear-gradient(to right, #02202b, #273332);
+}
+
+.down-btn li:last-child a:hover {
+    -webkit-background: linear-gradient(to right, #02202b, #57c4bf);
+    -moz-background: linear-gradient(to right, #02202b, #57c4bf);
+    -ms-background: linear-gradient(to right, #02202b, #57c4bf);
+    -o-background: linear-gradient(to right, #02202b, #57c4bf);
+    background: linear-gradient(to right, #02202b, #57c4bf);
+}
+
+.down-btn li a span {
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+}
+
+.down-btn li a i {
+    position: absolute;
+    left: 25px;
+    top: 25px;
+    font-size: 35px;
+    color: #fdfdfd !important;
+}
+
+footer h4 {
+    color: #151515;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    padding-top: 58px;
+    padding-bottom: 20px;
+}
+
+footer .social li {
+    display: inline-block;
+    margin: 0 5px;
+}
+
+footer .social li a {
+    display: inline-block;
+    font-size: 16px;
+    line-height: 40px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    color: #181818;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    position: relative;
+    z-index: 555;
+    transition: all linear 0.3s;
+    -webkit-transition: all linear 0.3s;
+    -moz-transition: all linear 0.3s;
+    -ms-transition: all linear 0.3s;
+    -o-transition: all linear 0.3s;
+}
+
+footer .social li a:after {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: #f1f1f1;
+    left: 0px;
+    top: 0px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    z-index: -1;
+    transition: all linear 0.3s;
+    -webkit-transition: all linear 0.3s;
+    -moz-transition: all linear 0.3s;
+    -ms-transition: all linear 0.3s;
+    -o-transition: all linear 0.3s;
+    border: 1px solid #317B7D;
+}
+
+footer .social li a:hover {
+    color: #fff;
+}
+
+footer .social li a:hover:after {
+    opacity: 0;
+}
+
+.top_to i {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    cursor: pointer;
+    z-index: 999999;
+    transition: all linear 0.3s;
+    -webkit-transition: all linear 0.3s;
+    -moz-transition: all linear 0.3s;
+    -ms-transition: all linear 0.3s;
+    -o-transition: all linear 0.3s;
+}
+
+footer .copy-right {
+    background: #282828;
+    margin-top: 59px;
+}
+
+footer .copy-right p {
+    color: #fff;
+    line-height: 50px;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+.top_to i:hover {
+    padding-top: 5px;
+}
+
+
+/* ================================================
+            footer part ends here
+=================================================== */
+
+
+/* ================================================
+            responsive css start here
+=================================================== */
+
+@media(min-width:992px) and (max-width: 1199px) {
+    header nav .nav>li>a {
+        font-size: 14px;
+        padding: 0 14px;
+    }
+
+    /* header part ends */
+    #feature .main_feauture img {
+        left: 21.5%;
+    }
+
+    /* feature part ends */
+    #about-phone a {
+        margin-right: 15px;
+        padding: 17px 30px 17px 50px;
+    }
+
+    #about-phone a i {
+        left: 15px;
+    }
+
+    #about-phone ul li {
+        margin-bottom: 10px;
+    }
+
+    /* about-phone ends */
+    #faqs .faqs_content {
+        padding: 40px 0 50px;
+        min-height: 415px;
+        margin-top: 133px;
+    }
+
+    #faqs .faqs_content .panel h4 a {
+        font-size: 18px;
+    }
+
+    #faqs .faqs_content .panel-body {
+        padding: 15px 0;
+    }
+
+    #faqs .faqs_content .faq_shot img {
+        top: -88px;
+    }
+
+    /* faqs part ends */
+    #pricing .price-package ul li {}
+
+    /* pricing part ends */
+    #video_tour h3 {
+        padding-top: 20px;
+    }
+
+    #video_tour p {
+        font-size: 13px;
+        padding-top: 15px;
+    }
+
+    /* video_tour ends */
+    #our-team ul li:hover .sm-one {
+        top: -2px;
+        left: 38.5%;
+    }
+
+    #our-team ul li:hover .sm-two {
+        top: 8px;
+    }
+
+    #our-team ul li:hover .sm-three {
+        left: 77%;
+        top: 38px;
+    }
+
+    #our-team ul li:hover .sm-four {
+        left: 89.4%;
+        top: 86px;
+    }
+
+    #our-team ul li:hover .sm-five {
+        left: 94.9%;
+        top: 143px;
+    }
+
+    #our-team ul li figure {
+        position: relative;
+        padding-top: 50px;
+        margin-top: 5px;
+    }
+}
+
+@media(min-width:992px) and (max-width: 1200px) {
+    .bx-wrapper img {
+        margin-right: 6.3%;
+        margin-top: 6.8%;
+    }
+
+    .price-package {
+        margin-bottom: 30px;
+    }
+
+    #pricing {
+        padding-bottom: 70px;
+    }
+
+    #our-team ul li:hover .sm-one {
+        left: 45%;
+        top: -3px;
+    }
+
+    #our-team ul li:hover .sm-two {
+        left: 59.5%;
+        top: 11px;
+    }
+
+    #our-team ul li:hover .sm-three {
+        left: 72%;
+        top: 51px;
+    }
+
+    #our-team ul li:hover .sm-four {
+        left: 79%;
+        top: 109px;
+    }
+
+    #our-team ul li:hover .sm-five {
+        left: 80.8%;
+        top: 176px;
+    }
+}
+
+@media(min-width:768px) and (max-width: 991px) {
+
+    header nav .nav>li>a {
+        font-size: 12px;
+        padding: 0 10px;
+    }
+
+    /* header part ends */
+    #banner .i_phone h1 {
+        padding-top: 190px;
+        font-size: 44px;
+    }
+
+    #banner .i_phone h1 span {
+        font-size: 44px;
+    }
+
+    #banner .i_phone p {
+        padding-top: 30px;
+        padding-bottom: 32px;
+    }
+
+    /* banner part ends */
+    #feature .main_feauture img,
+    #feature .right_border img,
+    #feature .right_border_two img,
+    #feature .easy_boost img,
+    #feature .un_concept img {
+        display: none;
+    }
+
+    #feature {
+        padding-top: 85px;
+        margin-top: 64px;
+        padding-bottom: 24px;
+        position: relative;
+    }
+
+    #feature .text_gap {
+        padding-top: 0;
+    }
+
+    #feature .easy_boost,
+    #feature .un_concept {
+        padding-top: 63px;
+    }
+
+    #feature .border {
+        margin-bottom: 70px;
+    }
+
+    /* feature part ends */
+    #milestone .milestone_banner .bnr_overly .counter_text h4 {
+        font-size: 20px;
+        padding: 5px 0 3px;
+    }
+
+    #milestone .milestone_banner .bnr_overly .counter_text p {
+        font-size: 20px;
+    }
+
+    /* milestone part ends */
+    #about-phone a {
+        padding: 10px 20px 10px 40px;
+    }
+
+    #about-phone a i {
+        top: 18px;
+        left: 12px;
+    }
+
+    /* about-phone part ends */
+    #faqs .faqs_content {
+        min-height: auto;
+    }
+
+    #faqs .faqs_content .panel h4 a {
+        font-size: 16px;
+    }
+
+    #faqs .faqs_content .faq_shot img {
+        position: inherit;
+        top: 0;
+        left: 0;
+    }
+
+    #faqs .faqs_content {
+        margin-top: 50px;
+        padding: 50px 0px 0px;
+    }
+
+    /* faqs part ends */
+    #video_tour h3 {
+        font-size: 18px;
+        padding-top: 15px;
+    }
+
+    #video_tour .youtube_video {
+        margin-top: 80px;
+    }
+
+    #video_tour .youtube_video .video_play_border {
+        opacity: 1;
+    }
+
+    /* video_tour part ends */
+    #our-team ul li h5 {
+        width: 200px;
+        height: 200px;
+    }
+
+    #our-team ul li:hover .sm-one {
+        left: 45%;
+        top: -13px;
+    }
+
+    #our-team ul li:hover .sm-two {
+        left: 60%;
+        top: 1px;
+    }
+
+    #our-team ul li:hover .sm-three {
+        left: 72.4%;
+        top: 35px;
+    }
+
+    #our-team ul li:hover .sm-four {
+        left: 80.1%;
+        top: 81px;
+    }
+
+    #our-team ul li:hover .sm-five {
+        left: 82%;
+        top: 134px;
+    }
+
+    .price-package {
+        margin-bottom: 30px;
+    }
+
+    #pricing {
+        padding-bottom: 70px;
+    }
+
+    /* our-team part ends */
+    #newsletter .news_banner form {
+        margin-top: 50px;
+    }
+
+    #newsletter .news_banner {
+        padding: 40px 0;
+    }
+
+    /* newsletter part ends */
+}
+
+@media (max-width: 767px) {
+
+    header nav,
+    header .navbar-position {
+        background: -webkit-linear-gradient(to left, #57c4bf 0%, #011f2a 100%);
+        background: -moz-linear-gradient(to left, #57c4bf 0%, #011f2a 100%);
+        background: -ms-linear-gradient(to left, #57c4bf 0%, #011f2a 100%);
+        background: -o-linear-gradient(to left, #57c4bf 0%, #011f2a 100%);
+        background: linear-gradient(to left, #57c4bf 0%, #011f2a 100%);
+    }
+
+    .index-two header nav,
+    .index-two header .navbar-position {
+        background: -webkit-linear-gradient(to left, #c10f41 0%, #233b88 100%);
+        background: -moz-linear-gradient(to left, #c10f41 0%, #233b88 100%);
+        background: -ms-linear-gradient(to left, #c10f41 0%, #233b88 100%);
+        background: -o-linear-gradient(to left, #c10f41 0%, #233b88 100%);
+        background: linear-gradient(to left, #c10f41 0%, #233b88 100%);
+    }
+
+    .index-three header nav,
+    .index-two header .navbar-position {
+        background: linear-gradient(to left, #fc4a1a 0%, #f7b733 100%);
+        background: -webkit-linear-gradient(to left, #fc4a1a 0%, #f7b733 100%);
+        background: -moz-linear-gradient(to left, #fc4a1a 0%, #f7b733 100%);
+        background: -ms-linear-gradient(to left, #fc4a1a 0%, #f7b733 100%);
+        background: -o-linear-gradient(to left, #fc4a1a 0%, #f7b733 100%);
+    }
+
+    .index-four header nav,
+    .index-two header .navbar-position {
+        background: -webkit-linear-gradient(to right, #1ec0ea 0%, #81ee8e 100%);
+        background: -moz-linear-gradient(to right, #1ec0ea 0%, #81ee8e 100%);
+        background: -ms-linear-gradient(to right, #1ec0ea 0%, #81ee8e 100%);
+        background: -o-linear-gradient(to right, #1ec0ea 0%, #81ee8e 100%);
+        background: linear-gradient(to right, #1ec0ea 0%, #81ee8e 100%);
+    }
+
+    .nav {
+        padding-top: 10px;
+    }
+
+    header nav,
+    header .navbar-position {
+        position: fixed;
+        left: 0px;
+        top: 0px !important;
+        padding: 5px 0px;
+        -webkit-box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.25);
+        -moz-box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.25);
+        box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.25);
+    }
+
+    .navbar-toggle .icon-bar {
+        background: #fff;
+    }
+
+    header nav ul li {
+        float: none;
+        text-align: center;
+    }
+
+    header nav .nav>li>a {
+        line-height: 38px;
+        font-size: 14px;
+    }
+
+    header nav .nav>li>a::after {
+        bottom: 4px;
+    }
+
+    header nav ul li:last-child a {
+        padding-right: 0;
+    }
+
+    header nav ul li:last-child a::after {
+        left: 50%;
+    }
+
+    /* header part ends */
+    #banner {
+        padding-top: 40px;
+    }
+
+    #banner .i_phone h1 {
+        padding-top: 50px;
+        padding-bottom: 30px;
+        font-size: 28px;
+    }
+
+    #banner .i_phone h1 span {
+        font-size: 28px;
+    }
+
+    #banner .i_phone p {
+        display: none;
+    }
+
+    #banner .round_border img {
+        position: relative;
+        right: 0px;
+        top: 0%;
+    }
+
+    #banner .i_phone .btn-list li a {
+        line-height: 40px;
+        font-size: 14px;
+        padding: 0px 25px;
+        margin-right: 14px;
+    }
+
+    #banner .i_phone .btn-list {
+        padding-bottom: 40px;
+    }
+
+    /* banner part ends */
+    #feature {
+        margin-top: 0px;
+        padding-top: 54px;
+        padding-bottom: 52px;
+    }
+
+    .text h2 {
+        font-size: 28px;
+        padding-bottom: 10px;
+    }
+
+    .border {
+        padding-bottom: 0px;
+    }
+
+    #feature .text_gap {
+        padding-top: 45px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    #feature .seo_friendly,
+    #feature .all_icon {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    #feature .right_border img,
+    #feature .right_border_two img,
+    #feature .easy_boost img,
+    #feature .un_concept img {
+        width: 40%;
+        display: none;
+    }
+
+    #feature .main_feauture {
+        margin-top: 0;
+    }
+
+    #feature .main_feauture img {
+        bottom: 80px;
+        left: 3%;
+        display: none;
+    }
+
+    #feature .over_image .pri-1 .ft img {
+        display: none;
+    }
+
+    #feature .right_border_two {
+        padding-top: 40px;
+    }
+
+    #feature .easy_boost {
+        padding-top: 40px;
+    }
+
+    #feature .un_concept {
+        padding-top: 40px;
+    }
+
+    #feature .all_icon img {
+        background: none;
+    }
+
+    #feature h3 {
+        font-size: 18px;
+        padding: 20px 0px 15px;
+    }
+
+    /* #feature part ends */
+    #milestone {
+        padding-top: 2px;
+    }
+
+    #milestone .milestone_banner .bnr_overly {
+        padding: 36px 0px 30px;
+    }
+
+    #milestone .milestone_banner .bnr_overly .counter_text h4 {
+        padding: 10px 0px 0px;
+        font-size: 16px;
+    }
+
+    #milestone .milestone_banner .bnr_overly .counter_text p {
+        font-size: 14px;
+    }
+
+    #milestone .milestone_banner .gap-mb {
+        padding-top: 47px;
+    }
+
+    #milestone .hp_phone img {
+        display: none;
+    }
+
+    /* milestone part ends */
+    #about-phone {
+        padding: 53px 0px 0px;
+        text-align: center;
+    }
+
+    #about-phone .border img {
+        padding-bottom: 0px;
+    }
+
+    #about-phone ul {
+        padding-left: 0px;
+    }
+
+    #about-phone a {
+        padding: 8px 20px 20px 35px;
+        font-size: 10px;
+        margin-right: 3px;
+    }
+
+    #about-phone a span {
+        font-size: 13px;
+    }
+
+    #about-phone a i {
+        left: 12px;
+        top: 18px;
+        font-size: 24px;
+    }
+    .avail-btn li {
+        margin:0 3px;
+    }
+
+    .avail-btn li a span {
+        font-size: 18px;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 700;
+        line-height: 0px;
+        margin-top: 4px;
+        display: block;
+    }
+
+    /* about-phone part ends */
+    #faqs {
+        padding: 34px 0px 0px;
+    }
+
+    #faqs .faqs_content {
+        margin-top: 34px;
+    }
+
+    #faqs .faqs_content .panel h4 a {
+        font-size: 14px;
+        padding: 6px 25px;
+    }
+
+    #faqs .faqs_content .faq_shot img {
+        position: inherit;
+        top: 0px;
+        transform: translateY(2px);
+        -webkit-transform: translateY(2px);
+        -moz-transform: translateY(2px);
+        -ms-transform: translateY(2px);
+        -o-transform: translateY(2px);
+        display: none;
+    }
+
+    #faqs .faqs_content {
+        min-height: auto;
+        padding: 25px 0px 34px;
+    }
+
+    #faqs .faqs_content .panel-body p {
+        line-height: 20px;
+        padding-left: 15px;
+    }
+
+    #faqs .faqs_content .panel-body {
+        padding: 15px 0px 20px;
+    }
+
+    /* faqs part ends */
+    #screenshot {
+        padding-top: 55px;
+    }
+
+    /* screenshot part ends */
+    #video_tour {
+        padding: 50px 0px 53px;
+    }
+
+    #video_tour .border {
+        padding-bottom: 35px;
+    }
+
+    #video_tour .youtube_video .video_play_border {
+        opacity: 1;
+        width: 70px;
+        height: 70px;
+    }
+
+    #video_tour .youtube_video .video_play_border i {
+        width: 70px;
+        height: 70px;
+        font-size: 65px;
+        line-height: 64px;
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+
+    #video_tour h3 {
+        padding-top: 30px;
+        text-align: center;
+        padding-left: 0;
+    }
+
+    #video_tour p {
+        padding-left: 0;
+        text-align: center;
+    }
+    .extra-video-text {
+        display:none;
+    }
+
+    /* video_tour part ends */
+    #testimonials .client_slide ul li .testimonials-content::before {
+        right: -9px;
+        background: #bcbaba;
+    }
+
+    #testimonials .client_slide ul li::before {
+        right: 8px;
+        background: #bcbaba;
+    }
+
+    #testimonials .client_slide ul li .testimonials-content::after {
+        left: 0px;
+        background: #bcbaba;
+    }
+
+    #testimonials .client_slide ul li::after {
+        left: 14px;
+        background: #bcbaba;
+    }
+
+    #testimonials .client_slide ul li {
+        padding: 90px 0px 0px;
+    }
+
+    #testimonials .client_slide ul li .testimonials-content {
+        padding: 75px 20px 30px;
+    }
+
+    #testimonials .client_slide ul li p {
+        font-size: 13px;
+    }
+
+    #testimonials .client_slide ul li img {
+        left: 50%;
+        top: 34px;
+        -webkit-transform: translateX(-50%);
+        -moz-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        -o-transform: translateX(-50%);
+        transform: translateX(-50%);
+    }
+
+    #testimonials .client_slide ul li h3 {
+        padding-top: 16px;
+    }
+
+    #testimonials .client_slide ul li .testimonials-content {
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+    }
+
+    /* testimonials part ends */
+
+    #pricing {
+        padding-top: 13px;
+        padding-bottom: 30px;
+    }
+
+    #pricing .border {
+        margin-bottom: 33px;
+    }
+
+    #pricing .price-package h3,
+    #pricing .price-package h3::after {
+        width: 100%;
+        color: #fff;
+    }
+
+    /* pricing part ends */
+    #newsletter .news_banner {
+        padding-top: 40px;
+        padding-bottom: 45px;
+    }
+
+    #newsletter .news_banner form {
+        margin-top: 34px;
+    }
+
+    /* newsletter part ends */
+    footer {
+        padding: 40px 0px 0px;
+        margin-top: 63px;
+    }
+
+    footer .download-app h2 {
+        font-size: 24px;
+        padding-top: 37px;
+        padding-bottom: 18px;
+    }
+
+    .down-btn li {
+        margin:0 5px;
+    }
+
+    footer .download-app a {
+        padding: 11px 15px 12px 36px;
+        margin-right: 0px;
+    }
+
+    footer .download-app a span {
+        font-size: 13px;
+    }
+
+    footer .download-app a i {
+        left: 12px;
+        top: 15px;
+        font-size: 24px;
+    }
+
+    .top_to i {
+        width: 35px;
+        height: 35px;
+        line-height: 35px;
+        font-size: 18px;
+        right: 15px;
+        bottom: 20px;
+    }
+
+    footer .copy-right {
+        margin-top: 44px;
+    }
+
+    /* footer part ends */
+}
+
+@media(min-width:320px) and (max-width:767px) {
+    header nav img {
+        width: 120px;
+        padding-top: 1px;
+        padding-left: 20px;
+        transform: scale(0.9);
+    }
+
+    header .navbar-position img {
+        padding-top: 1px;
+        padding-left: 20px;
+        transform: scale(0.9);
+    }
+
+    .navbar-toggle {
+        border: 1px solid transparent;
+        margin-top: 6px;
+        margin-bottom: 0px;
+    }
+
+    .navbar-collapse {
+        margin-top: 5px;
+        padding-bottom: 20px;
+    }
+
+    #banner {
+        text-align: center;
+    }
+
+    #banner .image_part {
+        position: inherit;
+    }
+
+    #banner .round_border {
+        right: 0;
+        left: 0;
+        bottom: 0;
+        z-index: -2;
+    }
+
+    #banner .shape_image img {
+        z-index: -2;
+    }
+
+    #about-phone h4 {
+        padding-top: 31px;
+    }
+
+    #about-phone ul {
+        padding-top: 0;
+        padding-left: 0;
+    }
+
+    .kc-wrap {
+        margin-top: 24px;
+    }
+
+    #testimonials {
+        padding: 39px 0px 45px;
+    }
+
+    #pricing .price-package {
+        margin-bottom: 30px;
+    }
+
+    #pricing .price-package a {
+        display: block;
+    }
+
+    footer .download-app a {
+        font-size: 11px;
+    }
+
+    footer h4 {
+        color: #151515;
+        padding-top: 37px;
+    }
+
+    #our-team {
+        padding: 53px 0px 0px;
+    }
+
+    #our-team ul li figure {
+        margin-top: 0;
+        transform: scale(0.75);
+    }
+
+    #our-team ul li:hover figure {
+        transform: scale(0.75);
+    }
+
+    #our-team ul li h5 {
+        background: none;
+    }
+
+    #our-team ul li figure {
+        padding-top: 30px;
+    }
+
+    #our-team ul li figure ul .sm-one {
+        position: absolute;
+        top: -8%;
+        left: 47%;
+    }
+
+    #our-team ul li figure:hover ul .sm-one {
+        position: absolute;
+        top: -8%;
+        left: 47%;
+    }
+
+    #our-team ul li:hover figure ul .sm-one {
+        position: absolute;
+        top: -8%;
+        left: 47%;
+    }
+
+    #our-team ul li figure ul .sm-two {
+        position: absolute;
+        top: -3%;
+        left: 64.5%;
+    }
+
+    #our-team ul li figure:hover ul .sm-two {
+        position: absolute;
+        top: -3%;
+        left: 64.5%;
+    }
+
+    #our-team ul li:hover figure ul .sm-two {
+        position: absolute;
+        top: -3%;
+        left: 64.5%;
+    }
+
+    #our-team ul li figure ul .sm-three {
+        position: absolute;
+        top: 6%;
+        left: 80.6%;
+    }
+
+    #our-team ul li figure:hover ul .sm-three {
+        position: absolute;
+        top: 6%;
+        left: 80.6%;
+    }
+
+    #our-team ul li:hover figure ul .sm-three {
+        position: absolute;
+        top: 6%;
+        left: 80.6%;
+    }
+
+    #our-team ul li figure ul .sm-four {
+        position: absolute;
+        top: 20%;
+        left: 92.5%;
+    }
+
+    #our-team ul li figure:hover ul .sm-four {
+        position: absolute;
+        top: 20%;
+        left: 92.5%;
+    }
+
+    #our-team ul li:hover figure ul .sm-four {
+        position: absolute;
+        top: 20%;
+        left: 92.5%;
+    }
+
+    #our-team ul li figure ul .sm-five {
+        position: absolute;
+        top: 37.5%;
+        left: 99.3%;
+    }
+
+    #our-team ul li figure:hover ul .sm-five {
+        position: absolute;
+        top: 37.5%;
+        left: 99.3%;
+    }
+
+    #our-team ul li:hover figure ul .sm-five {
+        position: absolute;
+        top: 37.5%;
+        left: 99.3%;
+    }
+
+    #our-team ul li figure ul li a i {
+        color: #fff;
+    }
+
+    #our-team ul li figure ul li a i::after {
+        background: none;
+    }
+
+}
+
+@media (width:480px) {
+    #our-team ul li figure {
+        padding-top: 30px;
+    }
+
+    #our-team ul li figure ul .sm-one {
+        position: absolute;
+        top: -8%;
+        left: 47%;
+    }
+
+    #our-team ul li figure:hover ul .sm-one {
+        position: absolute;
+        top: -8%;
+        left: 47%;
+    }
+
+    #our-team ul li:hover figure ul .sm-one {
+        position: absolute;
+        top: -8%;
+        left: 47%;
+    }
+
+    #our-team ul li figure ul .sm-two {
+        position: absolute;
+        top: -4%;
+        left: 59%;
+    }
+
+    #our-team ul li figure:hover ul .sm-two {
+        position: absolute;
+        top: -4%;
+        left: 59%;
+    }
+
+    #our-team ul li:hover figure ul .sm-two {
+        position: absolute;
+        top: -4%;
+        left: 59%;
+    }
+
+    #our-team ul li figure ul .sm-three {
+        position: absolute;
+        top: 6%;
+        left: 69.6%;
+    }
+
+    #our-team ul li figure:hover ul .sm-three {
+        position: absolute;
+        top: 6%;
+        left: 69.6%;
+    }
+
+    #our-team ul li:hover figure ul .sm-three {
+        position: absolute;
+        top: 6%;
+        left: 69.6%;
+    }
+
+    #our-team ul li figure ul .sm-four {
+        position: absolute;
+        top: 20.8%;
+        left: 78.1%;
+    }
+
+    #our-team ul li figure:hover ul .sm-four {
+        position: absolute;
+        top: 20.8%;
+        left: 78.1%;
+    }
+
+    #our-team ul li:hover figure ul .sm-four {
+        position: absolute;
+        top: 20.8%;
+        left: 78.1%;
+    }
+
+    #our-team ul li figure ul .sm-five {
+        position: absolute;
+        top: 38.5%;
+        left: 82.2%;
+    }
+
+    #our-team ul li figure:hover ul .sm-five {
+        position: absolute;
+        top: 38.5%;
+        left: 82.2%;
+    }
+
+    #our-team ul li:hover figure ul .sm-five {
+        position: absolute;
+        top: 38.5%;
+        left: 82.2%;
+    }
+}
+
+@media (width:575px) {
+    #our-team ul li figure {
+        padding-top: 30px;
+    }
+
+    #our-team ul li figure ul .sm-one {
+        position: absolute;
+        top: -9%;
+        left: 47%;
+    }
+
+    #our-team ul li figure:hover ul .sm-one {
+        position: absolute;
+        top: -9%;
+        left: 47%;
+    }
+
+    #our-team ul li:hover figure ul .sm-one {
+        position: absolute;
+        top: -9%;
+        left: 47%;
+    }
+
+    #our-team ul li figure ul .sm-two {
+        position: absolute;
+        top: -4%;
+        left: 59%;
+    }
+
+    #our-team ul li figure:hover ul .sm-two {
+        position: absolute;
+        top: -4%;
+        left: 59%;
+    }
+
+    #our-team ul li:hover figure ul .sm-two {
+        position: absolute;
+        top: -4%;
+        left: 59%;
+    }
+
+    #our-team ul li figure ul .sm-three {
+        position: absolute;
+        top: 9.8%;
+        left: 69.1%;
+    }
+
+    #our-team ul li figure:hover ul .sm-three {
+        position: absolute;
+        top: 9.8%;
+        left: 69.1%;
+    }
+
+    #our-team ul li:hover figure ul .sm-three {
+        position: absolute;
+        top: 9.8%;
+        left: 69.1%;
+    }
+
+    #our-team ul li figure ul .sm-four {
+        position: absolute;
+        top: 28.8%;
+        left: 76%;
+    }
+
+    #our-team ul li figure:hover ul .sm-four {
+        position: absolute;
+        top: 28.8%;
+        left: 76%;
+    }
+
+    #our-team ul li:hover figure ul .sm-four {
+        position: absolute;
+        top: 28.8%;
+        left: 76%;
+    }
+
+    #our-team ul li figure ul .sm-five {
+        position: absolute;
+        top: 49.5%;
+        left: 78%;
+    }
+
+    #our-team ul li figure:hover ul .sm-five {
+        position: absolute;
+        top: 49.5%;
+        left: 78%;
+    }
+
+    #our-team ul li:hover figure ul .sm-five {
+        position: absolute;
+        top: 49.5%;
+        left: 78%;
+    }
+
+    .avail-btn li {
+        margin: 0 5px;
+    }
+
+    .down-btn li {
+        margin: 0 5px;
+    }
+}
+
+
+
+@media (width:576px) {
+    #our-team ul li figure {
+        padding-top: 30px;
+    }
+
+    #our-team ul li figure ul .sm-one {
+        position: absolute;
+        top: -9%;
+        left: 47%;
+    }
+
+    #our-team ul li figure:hover ul .sm-one {
+        position: absolute;
+        top: -9%;
+        left: 47%;
+    }
+
+    #our-team ul li:hover figure ul .sm-one {
+        position: absolute;
+        top: -9%;
+        left: 47%;
+    }
+
+    #our-team ul li figure ul .sm-two {
+        position: absolute;
+        top: -4%;
+        left: 59%;
+    }
+
+    #our-team ul li figure:hover ul .sm-two {
+        position: absolute;
+        top: -4%;
+        left: 59%;
+    }
+
+    #our-team ul li:hover figure ul .sm-two {
+        position: absolute;
+        top: -4%;
+        left: 59%;
+    }
+
+    #our-team ul li figure ul .sm-three {
+        position: absolute;
+        top: 9.8%;
+        left: 69.1%;
+    }
+
+    #our-team ul li figure:hover ul .sm-three {
+        position: absolute;
+        top: 9.8%;
+        left: 69.1%;
+    }
+
+    #our-team ul li:hover figure ul .sm-three {
+        position: absolute;
+        top: 9.8%;
+        left: 69.1%;
+    }
+
+    #our-team ul li figure ul .sm-four {
+        position: absolute;
+        top: 28.8%;
+        left: 75.7%;
+    }
+
+    #our-team ul li figure:hover ul .sm-four {
+        position: absolute;
+        top: 28.8%;
+        left: 75.7%;
+    }
+
+    #our-team ul li:hover figure ul .sm-four {
+        position: absolute;
+        top: 28.8%;
+        left: 75.7%;
+    }
+
+    #our-team ul li figure ul .sm-five {
+        position: absolute;
+        top: 49.5%;
+        left: 77.7%;
+    }
+
+    #our-team ul li figure:hover ul .sm-five {
+        position: absolute;
+        top: 49.5%;
+        left: 77.7%;
+    }
+
+    #our-team ul li:hover figure ul .sm-five {
+        position: absolute;
+        top: 49.5%;
+        left: 77.7%;
+    }
+
+    .avail-btn li {
+        margin: 0 5px;
+    }
+
+    .down-btn li {
+        margin: 0 5px;
+    }
+}
+
+
+
+@media (width:767px) {
+    #our-team ul li figure {
+        padding-top: 30px;
+    }
+
+    #our-team ul li figure ul .sm-one {
+        position: absolute;
+        top: -9%;
+        left: 48.5%;
+    }
+
+    #our-team ul li figure:hover ul .sm-one {
+        position: absolute;
+        top: -9%;
+        left: 48.5%;
+    }
+
+    #our-team ul li:hover figure ul .sm-one {
+        position: absolute;
+        top: -9%;
+        left: 48.5%;
+    }
+
+    #our-team ul li figure ul .sm-two {
+        position: absolute;
+        top: -4%;
+        left: 56%;
+    }
+
+    #our-team ul li figure:hover ul .sm-two {
+        position: absolute;
+        top: -4%;
+        left: 56%;
+    }
+
+    #our-team ul li:hover figure ul .sm-two {
+        position: absolute;
+        top: -4%;
+        left: 56%;
+    }
+
+    #our-team ul li figure ul .sm-three {
+        position: absolute;
+        top: 7%;
+        left: 62.7%;
+    }
+
+    #our-team ul li figure:hover ul .sm-three {
+        position: absolute;
+        top: 7%;
+        left: 62.7%;
+    }
+
+    #our-team ul li:hover figure ul .sm-three {
+        position: absolute;
+        top: 7%;
+        left: 62.7%;
+    }
+
+    #our-team ul li figure ul .sm-four {
+        position: absolute;
+        top: 22%;
+        left: 67.6%;
+    }
+
+    #our-team ul li figure:hover ul .sm-four {
+        position: absolute;
+        top: 22%;
+        left: 67.6%;
+    }
+
+    #our-team ul li:hover figure ul .sm-four {
+        position: absolute;
+        top: 22%;
+        left: 67.6%;
+    }
+
+    #our-team ul li figure ul .sm-five {
+        position: absolute;
+        top: 41%;
+        left: 70%;
+    }
+
+    #our-team ul li figure:hover ul .sm-five {
+        position: absolute;
+        top: 41%;
+        left: 70%;
+    }
+
+    #our-team ul li:hover figure ul .sm-five {
+        position: absolute;
+        top: 41%;
+        left: 70%;
+    }
+}
+
+@media (min-width:576px) and (max-width:767px) {
+    
+}
